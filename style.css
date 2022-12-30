@@ -1,4 +1,4 @@
-body{
+section {
     padding: 10px;
 }
 
@@ -89,5 +89,27 @@ h3 {
     border: #ac2925;
 }
 
+/*Flat buttons*/
 
+.flt-btn {
+    display: inline-block;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.42857143;
+    padding: 6px 12px;
+    margin-bottom: 10px;
+    border: 1px solid ;
+    white-space: nowrap;
+    vertical-align: middle;
+    background-color: white;
+    color: rgb(0, 0, 0);
+}
+
+.flt-btn:hover {
+    color: #ffffff;
+    background-color: rgb(0, 0, 0);
+    transition: all 0.2s ease-in-out;
+}
 
