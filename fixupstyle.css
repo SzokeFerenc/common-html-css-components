@@ -43,5 +43,12 @@ a:hover {
     .right {
         float: right;
     }
+
+    /* Clearfix */
+    nav::after {
+        content: "";
+        clear: both;
+        display: block;
+    }
 }
 
